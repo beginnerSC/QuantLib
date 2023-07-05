@@ -4,5 +4,6 @@
 
 # Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
 
-image:
-  file: .gitpod.Dockerfile
+tasks:
+  - name: Build and Debug QuantLib
+    command: ./build_and_debug_quantlib.sh
