@@ -10,6 +10,6 @@ sudo make install
 sudo ldconfig
 
 # Build and Run the example
-cd /workspace/Examples/EquityOption
+cd Examples/EquityOption
 g++ -g EquityOption.cpp -o EquityOption -L../../ql/.libs/libQuantLib.so -lQuantLib
 ./EquityOption
