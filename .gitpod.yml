@@ -6,4 +6,4 @@
 
 tasks:
   - name: Build and Debug QuantLib
-    command: ./build_and_debug_quantlib.sh
+  - init: ./build_and_debug_quantlib.sh
